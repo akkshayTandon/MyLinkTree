@@ -12,6 +12,14 @@ body {
     width: 100%;
 }
 
+body{
+    background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
 #app {
     display: flex;
     flex-direction: column;
@@ -19,11 +27,11 @@ body {
     align-items: center;
     min-height: 100vh;
     
-    background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
+/*     background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;  */
 
     /* gap: 0.5rem; */
     /* height: 100vh; */
