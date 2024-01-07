@@ -15,9 +15,9 @@
     text-align: center;
    }
 
-   #app{
+   /* #app{
     background-image: linear-gradient(to bottom, #a855f7, #6366f1, #ec4899);
-    }
+    } */
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -48,8 +48,8 @@
     }
 }
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
     #app{
     background-image: linear-gradient(to bottom, #a855f7, #6366f1, #ec4899);
     }
-}
+} */
