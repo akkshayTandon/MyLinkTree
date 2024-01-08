@@ -20,6 +20,7 @@ body{
     background-position: center; 
 }
 
+/* App Styling */
 #app {
     display: flex;
     flex-direction: column;
@@ -27,15 +28,101 @@ body{
     align-items: center;
     min-height: 100vh;
     
-/*     background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
+    /* background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;  */
-
+    
+    /* background-image: linear-gradient(to bottom, #a855f7, #6366f1, #ec4899); */
     /* gap: 0.5rem; */
     /* height: 100vh; */
     /* border: 2px solid blue; */
+}
+
+/* Menu Button Styling */
+#menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: fixed;
+    left: 0.8rem;
+    top: 1.28rem;
+    cursor: pointer;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    padding: .2rem;
+}
+
+#cancel-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    cursor: pointer;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    padding: .4rem;
+}
+
+/* Navigation Sidebar Styling */
+nav{
+    /* background-color: rgb(230, 230, 230); */
+    position: absolute;
+    right: 100%;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    transition: .5s;
+    z-index: 1;
+}
+
+nav.open{
+    right: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 2.5rem;
+}
+
+nav ul li a{
+    /* color: rgb(14, 13, 13); */
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: bisque;
+}
+
+nav ul li a:hover{
+    color: rgb(83, 83, 83);
+}
+
+nav ul li a:visited{
+    color: bisque;
+}
+
+nav ul h1{
+    font-size: 2.5rem;
+    margin: 2.5rem;
+    font-weight: bold;
+}
+
+/* Header-Styling */
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 50%;
+    width: 100%;
 }
 
 #header>h1 {
@@ -54,16 +141,6 @@ body{
     font-size: larger;
 }
 
-#header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    height: 50%;
-    width: 100%;
-}
-
 #header>p>a {
     color: orange;
     text-decoration: none;
@@ -76,6 +153,7 @@ body{
     cursor: pointer;
 }
 
+/* Link Container Styling */
 #link-container {
     /* border: 2px solid orange; */
     display: flex;
