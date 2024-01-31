@@ -190,6 +190,6 @@ nav ul h1{
 
 .links:hover {
     background-color: rgb(159, 66, 66);
-    font-size: large;
+/*     font-size: large; */
     cursor: pointer;
 }
