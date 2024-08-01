@@ -12,12 +12,12 @@ body {
     width: 100%;
 }
 
-body{
+body {
     background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 }
 
 /* App Styling */
@@ -27,13 +27,13 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
+    padding: 1.6rem;
     /* background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;  */
-    
+
     /* background-image: linear-gradient(to bottom, #a855f7, #6366f1, #ec4899); */
     /* gap: 0.5rem; */
     /* height: 100vh; */
@@ -41,21 +41,21 @@ body{
 }
 
 /* Menu Button Styling */
-#menu-btn{
+#menu-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
     position: fixed;
-    left: 0.8rem;
-    top: 1.28rem;
+    left: 1.6rem;
+    top: 1.33rem;
     cursor: pointer;
     border: 2px solid wheat;
     border-radius: 50%;
     padding: .2rem;
 }
 
-#cancel-btn{
+#cancel-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ body{
 }
 
 /* Navigation Sidebar Styling */
-nav{
+nav {
     /* background-color: rgb(230, 230, 230); */
     position: absolute;
     right: 100%;
@@ -83,16 +83,16 @@ nav{
     z-index: 1;
 }
 
-nav.open{
+nav.open {
     right: 0;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin: 2.5rem;
 }
 
-nav ul li a{
+nav ul li a {
     /* color: rgb(14, 13, 13); */
     margin: 1rem;
     font-size: 1.5rem;
@@ -100,15 +100,15 @@ nav ul li a{
     color: bisque;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(83, 83, 83);
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
     color: bisque;
 }
 
-nav ul h1{
+nav ul h1 {
     font-size: 2.5rem;
     margin: 2.5rem;
     font-weight: bold;
@@ -190,6 +190,6 @@ nav ul h1{
 
 .links:hover {
     background-color: rgb(159, 66, 66);
-/*     font-size: large; */
+    /*     font-size: large; */
     cursor: pointer;
 }
