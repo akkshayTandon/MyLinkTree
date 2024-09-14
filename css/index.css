@@ -139,6 +139,7 @@ nav ul h1 {
     color: azure;
     font-family: 'Ysabeau', sans-serif;
     font-size: larger;
+    text-align: center;
 }
 
 #header>p>a {
