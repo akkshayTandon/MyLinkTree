@@ -15,7 +15,7 @@ portfolio.addEventListener("mouseout", (e) => {
 const sidebar = document.getElementById("sidebar");
 const menuBtn = document.getElementById("menu-btn");
 const cancelBtn = document.getElementById("cancel-btn");
-const projectBtn = document.document.querySelectorAll('.links')[1];
+const projectBtn = document.querySelectorAll('.links')[1];
 
 const header = document.getElementById("header");
 const linkContainer = document.getElementById("link-container");
