@@ -15,11 +15,19 @@ portfolio.addEventListener("mouseout", (e) => {
 const sidebar = document.getElementById("sidebar");
 const menuBtn = document.getElementById("menu-btn");
 const cancelBtn = document.getElementById("cancel-btn");
+const projectBtn = document.document.querySelectorAll('.links')[1];
 
 const header = document.getElementById("header");
 const linkContainer = document.getElementById("link-container");
 
 menuBtn.addEventListener("click", () => {
+    menuBtn.style.display = "none";
+    header.style.filter = "blur(20px)";
+    linkContainer.style.filter = "blur(20px)";
+    sidebar.classList.add("open");
+});
+
+projectBtn.addEventListener("click", () => {
     menuBtn.style.display = "none";
     header.style.filter = "blur(20px)";
     linkContainer.style.filter = "blur(20px)";
