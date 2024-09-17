@@ -13,7 +13,9 @@ body {
 }
 
 body {
-    background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
+    /* background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus); */
+    /* background-image: url(https://astro-simple-portfolio.vercel.app/assets/svg/backgrounds/horizon-animated.svg); */
+    background-image: linear-gradient(to top, #000000e1, #2a2929e0, #000000ed);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,11 +30,20 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 1.2rem;
-    /* background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);
+    /* background-image: linear-gradient(to right, #2a2929e0, #000000, #1f1f1fe0); */
+    /* background-image: linear-gradient(to right, #2a2929e0, #000000, #1f1f1fe0); */
+    /* background-image: url(https://astro-simple-portfolio.vercel.app/assets/svg/backgrounds/horizon-animated.svg); */
+
+    /* background-image: linear-gradient(to right, #1f1f1ff0, #000000cd, #1f1f1ff0); */
+    background-image: linear-gradient(to bottom, rgb(3 3 3 / 94%), rgb(26 25 25 / 81%), rgb(10 9 9 / 96%));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;  */
+    background-position: center;
+
+    /* background-color: rgba(13, 13, 13, 0.821); */
+
+    /* background-image: url(https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus);  */
 
     /* background-image: linear-gradient(to bottom, #a855f7, #6366f1, #ec4899); */
     /* gap: 0.5rem; */
@@ -178,6 +189,7 @@ nav ul h1 {
     flex-direction: row;
     justify-content: space-around;
     border: 2px solid black;
+    border: 2px solid wheat;
     border-radius: 10px;
     margin: 1rem;
     padding: 0.5rem;
@@ -196,6 +208,73 @@ nav ul h1 {
 
 .links:hover {
     background-color: rgb(159, 66, 66);
-    /*     font-size: large; */
+    /* font-size: large; */
     cursor: pointer;
+}
+
+/* Background Animation Styling */
+body {
+    text-align: center;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 0.92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-o-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
 }
