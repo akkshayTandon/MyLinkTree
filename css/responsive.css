@@ -48,6 +48,10 @@
          gap: 0.8rem;
          margin-top: 3rem;
      }
+
+    nav ul li {
+        text-align: center;
+    }
  }
  
  /* @media (max-width: 360px) {
